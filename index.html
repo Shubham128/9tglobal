@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>9T Global — Software &amp; IT Solutions | One Platform. Unlimited Possibilities.</title>
+<meta name="description" content="9T Global: ten enterprise systems — CMS, GIS, Hoarding, Asset, Docs, NOC, ChatBot, HRMS, e-Auction and Contractor Management — on one connected suite.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ TRANSPARENT HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-row">
+    <div class="header-left">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="9T Global logo" class="logo-img">
+        <span class="logo-text">
+          <b>9T Global</b>
+          <span>Software &amp; IT Solutions</span>
+        </span>
+      </a>
+    </div>
+    <div class="header-right">
+      <a href="contact.html" class="btn btn-orange">Request a Demo</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ DRAWER MENU ============ -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer" aria-label="Main menu">
+  <div class="drawer-head">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="9T Global logo" class="logo-img" style="width:36px;height:36px;">
+      <span class="logo-text"><b>9T Global</b></span>
+    </a>
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+  </div>
+
+  <div class="drawer-tiles">
+    <a href="index.html" class="dtile"><img src="assets/tile-home.svg" alt=""><b>Home</b></a>
+    <a href="products.html" class="dtile"><img src="assets/tile-products.svg" alt=""><b>Products</b></a>
+    <a href="solutions.html" class="dtile"><img src="assets/tile-solutions.svg" alt=""><b>Solutions</b></a>
+    <a href="about.html" class="dtile"><img src="assets/tile-why.svg" alt=""><b>Why 9T</b></a>
+    <a href="contact.html" class="dtile" style="grid-column:1 / -1;"><img src="assets/tile-contact.svg" alt=""><b>Contact Us</b></a>
+  </div>
+
+  <div class="drawer-links">
+    <h6>Products</h6>
+    <a href="cms.html">CMS — Complaint Management</a>
+    <a href="gis.html">GIS Dashboard</a>
+    <a href="hoarding.html">Hoarding Management</a>
+    <a href="asset.html">Asset Management</a>
+    <a href="docs.html">Docs — Document Management</a>
+    <h6>Solutions</h6>
+    <a href="noc.html">NOC Management</a>
+    <a href="auction.html">e-Auction</a>
+    <a href="contractor.html">Contractor Management</a>
+    <a href="hrms.html">HRMS</a>
+    <a href="chatbot.html">ChatBot — AI Assistant</a>
+  </div>
+</aside>
+
+<!-- ============ FULL-SCREEN HERO ============ -->
+<section class="hero-slider" aria-label="Highlights">
+  <div class="slide active">
+    <img class="slide-bg" src="assets/slide1.svg" alt="">
+    <div class="slide-caption">
+      <span class="tag">India's Digital Suite Partner</span>
+      <h1>One Platform.<br><em>Unlimited Possibilities.</em></h1>
+      <p>A growing suite of connected systems for cities, agencies and enterprises — complaints, maps, assets, documents, approvals, workforce, auctions and contracts.</p>
+      <div class="slide-actions">
+        <a href="products.html" class="btn btn-orange">Explore the Suite</a>
+        <a href="contact.html" class="btn btn-white-outline">Request a Demo</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <img class="slide-bg" src="assets/slide2.svg" alt="">
+    <div class="slide-caption">
+      <span class="tag">GIS Dashboard</span>
+      <h2>Your whole city,<br><em>on one live map.</em></h2>
+      <p>Complaints, assets, hoardings and works — every record location-tagged and visible in real time.</p>
+      <div class="slide-actions">
+        <a href="gis.html" class="btn btn-orange">Explore GIS</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <img class="slide-bg" src="assets/slide3.svg" alt="">
+    <div class="slide-caption">
+      <span class="tag">HRMS · e-Auction · Contractor</span>
+      <h2>People, bids and contracts,<br><em>fully digital.</em></h2>
+      <p>From payroll to tamper-proof auctions to milestone-billed contracts — run it all from one suite.</p>
+      <div class="slide-actions">
+        <a href="solutions.html" class="btn btn-orange">Explore Solutions</a>
+      </div>
+    </div>
+  </div>
+  <button class="slider-arrow prev" aria-label="Previous slide">‹</button>
+  <button class="slider-arrow next" aria-label="Next slide">›</button>
+  <div class="slider-dots"></div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+
+<!-- ============ TOP PRODUCTS (destination-style) ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">The Suite</span>
+      <h2>Top Products</h2>
+      <p>Five core systems that run the everyday work of cities and enterprises — hover any card to explore.</p>
+    </div>
+    <div class="dest-grid">
+      
+      <a class="dest-card" id="cms" href="cms.html">
+        <span class="dest-badge">01</span>
+        <img src="assets/cms.svg" alt="CMS illustration">
+        <div class="dest-info">
+          <span class="cat">Complaint Management</span>
+          <h3>CMS</h3>
+          <p>Log, assign and track every complaint end to end with SLA timers and automatic escalation.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="gis" href="gis.html">
+        <span class="dest-badge">02</span>
+        <img src="assets/gis.svg" alt="GIS Dashboard illustration">
+        <div class="dest-info">
+          <span class="cat">GIS &amp; Spatial Analytics</span>
+          <h3>GIS Dashboard</h3>
+          <p>Live maps, layers and location-tagged records — geo-insights for planning and monitoring.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="hoarding" href="hoarding.html">
+        <span class="dest-badge">03</span>
+        <img src="assets/hoarding.svg" alt="Hoarding Management illustration">
+        <div class="dest-info">
+          <span class="cat">Advertisement Control</span>
+          <h3>Hoarding Management</h3>
+          <p>Manage permits, locations and renewals while tracking revenue against every site.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="asset" href="asset.html">
+        <span class="dest-badge">04</span>
+        <img src="assets/asset.svg" alt="Asset Management illustration">
+        <div class="dest-info">
+          <span class="cat">Asset Tracking</span>
+          <h3>Asset Management</h3>
+          <p>QR-tagged assets with maintenance history, custody and depreciation logs.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="docs" href="docs.html">
+        <span class="dest-badge">05</span>
+        <img src="assets/docs.svg" alt="Docs illustration">
+        <div class="dest-info">
+          <span class="cat">Document Management</span>
+          <h3>Docs</h3>
+          <p>Secure, searchable digital records with role-based access and version history.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMMERSIVE BAND 1: NETWORK ============ -->
+<section class="immersive" style="background-image:url('assets/bg-network.svg');">
+  <div class="immersive-inner">
+    <span class="eyebrow">Immersive 9T</span>
+    <h2>Every system. Every record.<br><em>One connected network.</em></h2>
+    <p>Your complaints, maps, assets, documents and approvals don't live in separate tools anymore — they live on one platform that keeps them talking to each other, all day, every day.</p>
+    <a href="about.html" class="btn btn-orange">Discover How →</a>
+    <div class="immersive-stats">
+      <div><b>✦</b><span>Systems connected</span></div>
+      <div><b>✦</b><span>One data layer</span></div>
+      <div><b>✦</b><span>Always on</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROMO BAND (event-banner style) ============ -->
+<section class="promo-band">
+  <div class="wrap promo-inner">
+    <div>
+      <span class="eyebrow">Flagship Launch · 2026</span>
+      <h2>e-Auction &amp; Contractor Management are here.</h2>
+      <p>Two new modules join the suite this year — transparent, tamper-proof bidding and full contract-lifecycle tracking, both connected to the same data layer as everything else.</p>
+      <a href="solutions.html" class="btn btn-orange">See What's New →</a>
+    </div>
+    <div class="promo-visual">
+      <img src="assets/hero-banner.svg" alt="The 9T Global suite — connected systems around one hub">
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOP SOLUTIONS ============ -->
+<section class="section tint">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Beyond the Basics</span>
+      <h2>Top Solutions</h2>
+      <p>Approvals, auctions, contracts, workforce and AI support — connected to the same suite.</p>
+    </div>
+    <div class="dest-grid">
+      
+      <a class="dest-card" id="noc" href="noc.html">
+        <span class="dest-badge">06</span>
+        <img src="assets/noc.svg" alt="NOC Management illustration">
+        <div class="dest-info">
+          <span class="cat">No Objection Certificate</span>
+          <h3>NOC Management</h3>
+          <p>Online application, automated workflow and digitally verifiable certificates.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="auction" href="auction.html">
+        <span class="dest-badge">07</span>
+        <img src="assets/auction.svg" alt="e-Auction illustration">
+        <div class="dest-info">
+          <span class="cat">Online Bidding</span>
+          <h3>e-Auction</h3>
+          <p>Time-bound bidding with live ranks and a digitally signed, tamper-proof trail.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="contractor" href="contractor.html">
+        <span class="dest-badge">08</span>
+        <img src="assets/contractor.svg" alt="Contractor Management illustration">
+        <div class="dest-info">
+          <span class="cat">Contract Lifecycle</span>
+          <h3>Contractor Management</h3>
+          <p>Onboarding, work orders, milestone billing and performance scoring in one flow.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="hrms" href="hrms.html">
+        <span class="dest-badge">09</span>
+        <img src="assets/hrms.svg" alt="HRMS illustration">
+        <div class="dest-info">
+          <span class="cat">Human Resources</span>
+          <h3>HRMS</h3>
+          <p>Attendance, payroll and leave in one place — recruitment to retirement, self-serve.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+      <a class="dest-card" id="chatbot" href="chatbot.html">
+        <span class="dest-badge">10</span>
+        <img src="assets/chatbot.svg" alt="ChatBot illustration">
+        <div class="dest-info">
+          <span class="cat">AI Assistant</span>
+          <h3>ChatBot</h3>
+          <p>24×7 smart support across every module with instant, accurate responses.</p>
+          <span class="explore">Explore →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<div class="stats-strip">
+  <div class="wrap">
+    <div><b>✦</b><span>One connected suite</span></div>
+    <div><b>✦</b><span>Single login, every module</span></div>
+    <div><b>✦</b><span>Always-on support</span></div>
+    <div><b>✦</b><span>Modular &amp; ever-expanding</span></div>
+  </div>
+</div>
+
+<!-- ============ WHY ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Why 9T Global</span>
+      <h2>Built to simplify. Designed to scale.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="ico">🔐</div><h4>One login, every module</h4><p>Single sign-on across the whole suite — no juggling passwords or duplicate data entry.</p></div>
+      <div class="why-card"><div class="ico">🔗</div><h4>Data that talks to itself</h4><p>A complaint in CMS can trigger the map, the asset check, and the record — automatically.</p></div>
+      <div class="why-card"><div class="ico">🏛️</div><h4>Built for government &amp; enterprise</h4><p>Role-based access, audit trails and approval workflows designed for how public bodies work.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMMERSIVE BAND 2: SERVER ROOM ============ -->
+<section class="immersive" style="background-image:url('assets/bg-server.svg');">
+  <div class="immersive-inner">
+    <span class="eyebrow">Enterprise-Grade Infrastructure</span>
+    <h2>Secure. Monitored.<br><em>Always available.</em></h2>
+    <p>Encrypted records, granular permissions and full activity logs — running on infrastructure that's watched around the clock, so your operations never sleep.</p>
+    <a href="contact.html" class="btn btn-orange">Request a Demo →</a>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section tint">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div>
+        <h2>Bring all your systems under one roof.</h2>
+        <p>Tell us what you're running today — we'll show you what it looks like connected.</p>
+      </div>
+      <a href="contact.html" class="btn btn-orange">Request a Demo →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a href="index.html" class="logo" style="margin-bottom:16px;">
+          <img src="assets/logo.png" alt="9T Global logo" class="logo-img" style="width:38px;height:38px;">
+          <span class="logo-text"><b style="color:#fff;">9T Global</b></span>
+        </a>
+        <p style="max-width:280px;">Software &amp; IT Solutions for government bodies and enterprises — one connected, ever-growing suite.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><img src="assets/ic-facebook.svg" alt=""></a>
+          <a href="#" aria-label="X (Twitter)"><img src="assets/ic-x.svg" alt=""></a>
+          <a href="#" aria-label="LinkedIn"><img src="assets/ic-linkedin.svg" alt=""></a>
+          <a href="#" aria-label="YouTube"><img src="assets/ic-youtube.svg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <h6>Products</h6>
+        <ul>
+          <li><a href="cms.html">CMS</a></li>
+          <li><a href="gis.html">GIS Dashboard</a></li>
+          <li><a href="hoarding.html">Hoarding Management</a></li>
+          <li><a href="asset.html">Asset Management</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>Solutions</h6>
+        <ul>
+          <li><a href="noc.html">NOC Management</a></li>
+          <li><a href="auction.html">e-Auction</a></li>
+          <li><a href="contractor.html">Contractor Management</a></li>
+          <li><a href="hrms.html">HRMS</a></li>
+          <li><a href="chatbot.html">ChatBot</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>Get in Touch</h6>
+        <ul>
+          <li><a href="mailto:hello@9tglobal.com">hello@9tglobal.com</a></li>
+          <li><a href="tel:+911234567890">+91 12345 67890</a></li>
+          <li><a href="contact.html">Contact page</a></li>
+          <li><a href="about.html">Why 9T Global</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> 9T Global Software &amp; IT Solutions. All rights reserved.</span>
+      <span>One Platform · Infinite Possibilities</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ============ -->
+<div class="float-social" aria-label="Social links">
+  <a href="#" aria-label="Facebook"><img src="assets/ic-facebook.svg" alt=""></a>
+  <a href="#" aria-label="X (Twitter)"><img src="assets/ic-x.svg" alt=""></a>
+  <a href="#" aria-label="LinkedIn"><img src="assets/ic-linkedin.svg" alt=""></a>
+  <a href="#" aria-label="YouTube"><img src="assets/ic-youtube.svg" alt=""></a>
+</div>
+
+<div class="floating-panel" id="floatPanel">
+  <h5>Quick Links</h5>
+  <a href="contact.html">Request a Demo</a>
+  <a href="products.html">Explore Products</a>
+  <a href="solutions.html">Explore Solutions</a>
+  <a href="mailto:hello@9tglobal.com">Email Us</a>
+</div>
+<div class="floating-cta">
+  <button class="fab" id="fabBtn">✦ Suite Planner</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
