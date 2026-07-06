@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="nw" cx="0.5" cy="0.45" r="0.75">
+<stop stop-color="#2E3FC4"/><stop offset="1" stop-color="#080E33"/>
+</radialGradient>
+</defs>
+<rect width="1920" height="900" fill="url(#nw)"/>
+<!-- globe -->
+<circle cx="960" cy="450" r="300" stroke="#3D52E0" stroke-width="2.5" fill="#0E1748" fill-opacity="0.6"/>
+<ellipse cx="960" cy="450" rx="300" ry="110" stroke="#3D52E0" stroke-opacity="0.7" stroke-width="1.8" fill="none"/>
+<ellipse cx="960" cy="450" rx="300" ry="210" stroke="#3D52E0" stroke-opacity="0.5" stroke-width="1.8" fill="none"/>
+<ellipse cx="960" cy="450" rx="110" ry="300" stroke="#3D52E0" stroke-opacity="0.7" stroke-width="1.8" fill="none"/>
+<ellipse cx="960" cy="450" rx="210" ry="300" stroke="#3D52E0" stroke-opacity="0.5" stroke-width="1.8" fill="none"/>
+<line x1="660" y1="450" x2="1260" y2="450" stroke="#3D52E0" stroke-opacity="0.7" stroke-width="1.8"/>
+<!-- connection arcs -->
+<g stroke="#F2994A" stroke-width="2.5" fill="none" stroke-opacity="0.85">
+<path d="M760 330 Q 960 130 1180 300"/>
+<path d="M820 590 Q 1050 720 1220 540"/>
+<path d="M700 460 Q 900 340 1150 420"/>
+</g>
+<g fill="#FBBF54">
+<circle cx="760" cy="330" r="8"/><circle cx="1180" cy="300" r="8"/>
+<circle cx="820" cy="590" r="8"/><circle cx="1220" cy="540" r="8"/>
+<circle cx="700" cy="460" r="8"/><circle cx="1150" cy="420" r="8"/>
+</g>
+<!-- satellite nodes -->
+<g stroke="#67E8F9" stroke-opacity="0.5" stroke-width="1.8">
+<line x1="960" y1="450" x2="330" y2="200"/><line x1="960" y1="450" x2="1620" y2="230"/>
+<line x1="960" y1="450" x2="300" y2="700"/><line x1="960" y1="450" x2="1640" y2="690"/>
+</g>
+<g>
+<circle cx="330" cy="200" r="34" fill="#253299" stroke="#67E8F9" stroke-width="2"/>
+<circle cx="1620" cy="230" r="34" fill="#253299" stroke="#67E8F9" stroke-width="2"/>
+<circle cx="300" cy="700" r="34" fill="#253299" stroke="#67E8F9" stroke-width="2"/>
+<circle cx="1640" cy="690" r="34" fill="#253299" stroke="#67E8F9" stroke-width="2"/>
+<circle cx="330" cy="200" r="10" fill="#67E8F9"/><circle cx="1620" cy="230" r="10" fill="#67E8F9"/>
+<circle cx="300" cy="700" r="10" fill="#67E8F9"/><circle cx="1640" cy="690" r="10" fill="#67E8F9"/>
+</g>
+<!-- stars -->
+<g fill="#A8B4F0" opacity="0.6">
+<circle cx="180" cy="120" r="2.5"/><circle cx="520" cy="90" r="2"/><circle cx="820" cy="70" r="2.5"/>
+<circle cx="1240" cy="100" r="2"/><circle cx="1500" cy="60" r="2.5"/><circle cx="1800" cy="130" r="2"/>
+<circle cx="120" cy="480" r="2"/><circle cx="1830" cy="440" r="2.5"/><circle cx="240" cy="840" r="2"/>
+<circle cx="1720" cy="850" r="2"/><circle cx="1060" cy="830" r="2.5"/>
+</g>
+<rect width="1920" height="900" fill="black" opacity="0.15"/>
+</svg>

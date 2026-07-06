@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="th" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#1F2C9C"/></linearGradient></defs>
+<rect width="400" height="260" fill="url(#th)"/>
+<path d="M200 60l90 70v76h-62v-52h-56v52h-62v-76z" fill="#fff" opacity="0.92"/>
+<rect width="400" height="260" fill="black" opacity="0.12"/>
+</svg>

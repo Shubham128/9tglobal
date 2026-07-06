@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sv" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E1748"/><stop offset="1" stop-color="#080E33"/>
+</linearGradient>
+<linearGradient id="rack" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#27359F"/><stop offset="1" stop-color="#141F66"/>
+</linearGradient>
+</defs>
+<rect width="1920" height="900" fill="url(#sv)"/>
+<!-- corridor floor -->
+<polygon points="0,900 760,470 1160,470 1920,900" fill="#111C5A"/>
+<g stroke="#3D52E0" stroke-opacity="0.5" stroke-width="2">
+<line x1="760" y1="470" x2="0" y2="900"/><line x1="1160" y1="470" x2="1920" y2="900"/>
+<line x1="860" y1="470" x2="480" y2="900"/><line x1="1060" y1="470" x2="1440" y2="900"/>
+<line x1="960" y1="470" x2="960" y2="900"/>
+</g>
+<!-- left racks (perspective) -->
+<g>
+<polygon points="80,120 380,220 380,760 80,900" fill="url(#rack)"/>
+<polygon points="420,240 640,310 640,700 420,780" fill="url(#rack)"/>
+<polygon points="670,320 760,470 760,470 670,660" fill="url(#rack)"/>
+</g>
+<!-- right racks -->
+<g>
+<polygon points="1840,120 1540,220 1540,760 1840,900" fill="url(#rack)"/>
+<polygon points="1500,240 1280,310 1280,700 1500,780" fill="url(#rack)"/>
+<polygon points="1250,320 1160,470 1160,660 1250,660" fill="url(#rack)"/>
+</g>
+<!-- glowing status LEDs -->
+<g>
+<g fill="#3ddc84">
+<circle cx="140" cy="260" r="5"/><circle cx="140" cy="330" r="5"/><circle cx="140" cy="400" r="5"/>
+<circle cx="140" cy="470" r="5"/><circle cx="140" cy="540" r="5"/><circle cx="140" cy="610" r="5"/>
+<circle cx="470" cy="360" r="4"/><circle cx="470" cy="420" r="4"/><circle cx="470" cy="480" r="4"/>
+<circle cx="1780" cy="260" r="5"/><circle cx="1780" cy="400" r="5"/><circle cx="1780" cy="540" r="5"/>
+<circle cx="1450" cy="360" r="4"/><circle cx="1450" cy="480" r="4"/>
+</g>
+<g fill="#F2994A">
+<circle cx="180" cy="295" r="5"/><circle cx="180" cy="435" r="5"/><circle cx="180" cy="575" r="5"/>
+<circle cx="510" cy="390" r="4"/><circle cx="510" cy="510" r="4"/>
+<circle cx="1740" cy="330" r="5"/><circle cx="1740" cy="470" r="5"/><circle cx="1740" cy="610" r="5"/>
+<circle cx="1410" cy="420" r="4"/>
+</g>
+<g fill="#67E8F9">
+<circle cx="220" cy="330" r="4"/><circle cx="220" cy="470" r="4"/><circle cx="220" cy="610" r="4"/>
+<circle cx="1700" cy="365" r="4"/><circle cx="1700" cy="505" r="4"/>
+</g>
+</g>
+<!-- rack slot lines -->
+<g stroke="#3D52E0" stroke-opacity="0.4" stroke-width="1.5">
+<line x1="90" y1="200" x2="375" y2="290"/><line x1="90" y1="280" x2="375" y2="360"/>
+<line x1="90" y1="360" x2="375" y2="430"/><line x1="90" y1="440" x2="375" y2="500"/>
+<line x1="90" y1="520" x2="375" y2="570"/><line x1="90" y1="600" x2="375" y2="640"/>
+<line x1="1830" y1="200" x2="1545" y2="290"/><line x1="1830" y1="280" x2="1545" y2="360"/>
+<line x1="1830" y1="360" x2="1545" y2="430"/><line x1="1830" y1="440" x2="1545" y2="500"/>
+<line x1="1830" y1="520" x2="1545" y2="570"/><line x1="1830" y1="600" x2="1545" y2="640"/>
+</g>
+<!-- ceiling glow -->
+<ellipse cx="960" cy="120" rx="700" ry="160" fill="#3D52E0" opacity="0.25"/>
+<rect width="1920" height="900" fill="black" opacity="0.18"/>
+</svg>
